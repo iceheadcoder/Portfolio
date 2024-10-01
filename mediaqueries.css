@@ -94,7 +94,7 @@
 
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 650px) {
     #contact,
     footer {
       height: 40vh;
@@ -138,11 +138,16 @@
       height: 46vw;
       justify-content: center;
     }
+
+    .section__text_p1{
+      margin-top: 6rem;
+    }
     .section__text__p2 {
       font-size: 1.25rem;
     }
     .title {
       font-size: 2rem;
+      margin-top: 6rem;
     }
     .text-container {
       text-align: justify;
