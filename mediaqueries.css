@@ -156,6 +156,9 @@
       font-size: 2rem;
       margin-top: 5rem;
     }
+    .section__text_p1-main{
+      margin-top: -3rem;
+    }
     .text-container {
       text-align: justify;
     }
