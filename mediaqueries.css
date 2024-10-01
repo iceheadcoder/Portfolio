@@ -46,6 +46,7 @@
     }
     
     .section__pic-container1 img{
+      margin-top: -6rem;
       margin-left: -15rem;
       width: 500px;
       height: 500px;
