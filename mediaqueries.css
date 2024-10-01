@@ -145,6 +145,9 @@
     .section__text__p2 {
       font-size: 1.25rem;
     }
+    .section__text_p1-main{
+      margin-top: 6rem;
+    }
     .title {
       font-size: 2rem;
       margin-top: 5rem;
