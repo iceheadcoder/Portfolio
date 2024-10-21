@@ -187,8 +187,20 @@ section{
     margin-left: 10rem;
     width:50px;    
     object-fit:fill;
-    height: auto;      
+    height: auto; 
+    margin-bottom: 30rem;     
 }
+
+.section__text_main{
+    font-size: larger;
+    margin-left: 25rem;
+}
+
+.title-main{
+    margin-left: 25rem;
+}
+
+
 
 .section__text{
     margin-top: 5rem;
@@ -207,6 +219,7 @@ section{
 }
 
 .section__text_p2{
+    margin-left: 25rem;
     font-size: 1.75rem;
     margin-bottom: 1rem;
 }
@@ -221,6 +234,7 @@ section{
     justify-content: center;
     margin-top: 1rem;
     gap: 1rem;
+    margin-left: 25rem;
 }
 
 
@@ -237,6 +251,7 @@ section{
     display: flex;
     justify-content: center;
     gap:1rem;
+    margin-left: 25rem;
 }
 
 .btn{
