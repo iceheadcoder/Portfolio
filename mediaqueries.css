@@ -3,6 +3,10 @@
       height: 83vh;
       margin-bottom: 6rem;
     }
+
+    #about{
+      margin-top: 5rem;
+    }
     .about-containers {
       flex-wrap: wrap;
     }
