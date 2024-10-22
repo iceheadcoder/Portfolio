@@ -106,3 +106,10 @@
     text-align: justify;
   }
 }
+
+@media (max-width: 768px) {
+  .proj-containers {
+      flex-direction: column; /* Stacks project cards on smaller screens */
+      align-items: center;
+  }
+}
