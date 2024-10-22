@@ -357,8 +357,14 @@ article .icon {
 
 #projects {
   position: relative;
+  flex-wrap: wrap;
 }
 
+.proj-containers{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 .color-container {
   border-color: rgb(163, 163, 163);
   background: rgb(250, 250, 250);
@@ -366,13 +372,25 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  width: 30%;
+  height: 30%;
 }
 
 .project-title {
   margin: 1rem;
   color: black;
+}
+
+.details-container-proj,.color-container-proj{
+  width: 30%;
+  height: 30%;
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
 }
 
 .project-btn {
