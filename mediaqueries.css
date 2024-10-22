@@ -113,46 +113,5 @@
   }
 }
 
-@media screen and (max-width: 430px) {
-  
-  /* Profile container centering */
-  .section__pic-container {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  /* Profile text and buttons */
-  .text-container, 
-  .btn-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  .text-container h1,
-  .text-container h2,
-  .btn-container button {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 300px;
-  }
-
-  /* Center the icons */
-  .social-icons {
-    display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-  }
-  
-  .social-icons a {
-    margin: 0 0.5rem;
-  }
-  
-}
 
 
