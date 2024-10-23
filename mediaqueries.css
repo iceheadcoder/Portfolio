@@ -115,36 +115,27 @@
 
 
 
-@media screen and (max-width: 430px) {
+/* Styles for devices with screen width around 430px (6.1 inch devices) */
+@media screen and (max-width: 390px) {
+
   /* Profile section adjustments */
   #profile {
-    height: auto;
-    margin-bottom: 4rem;
-    text-align: center;
-    width: 100%; /* Ensure the profile section takes up full width */
+    height: auto; /* Allow content to dictate height */
+    margin-bottom: 4rem; /* Adjust bottom margin */
+    text-align: center; /* Ensure content is centered */
   }
 
   .section__pic-container {
-    width: 230px; /* Smaller image size */
-    height: 230px;
-    margin: 0 auto 1.5rem;
+    width: 250px; /* Smaller width for profile image */
+    height: 250px;
+    margin: 0 auto 1.5rem; /* Center the image */
     display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  /* Center align all section containers */
-  .section-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
   }
 
   /* Text and titles */
   .title {
-    font-size: 1.75rem;
+    font-size: 1.75rem; /* Reduce size for smaller screens */
     text-align: center;
   }
 
@@ -156,22 +147,14 @@
   .text-container,
   .btn-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Stack vertically */
     justify-content: center;
     align-items: center;
     text-align: center;
     margin-bottom: 1.5rem;
-    width: 100%; /* Ensure the button container takes up full width */
   }
 
-  /* Adjust button sizes for better fit */
-  .btn {
-    width: 90%;
-    max-width: 300px;
-    margin-bottom: 1rem;
-  }
-
-  /* Center icons */
+  /* Reduce icon sizes */
   .social-icons {
     justify-content: center;
     margin-top: 1rem;
@@ -181,19 +164,22 @@
     margin: 0 0.4rem;
   }
 
-  /* Ensure project cards stack properly */
+  /* Adjust project section for small screens */
   .proj-containers {
-    flex-direction: column;
+    flex-direction: column; /* Stack project cards vertically */
     align-items: center;
   }
 
   .details-container-proj {
-    width: 100%;
-    max-width: 350px; /* Limit max-width to avoid overflow */
+    width: 90%; /* Reduce width for better fit */
     margin-bottom: 1.5rem;
   }
 
-  /* General layout adjustments */
+  /* General layout and font size adjustments */
+  article {
+    font-size: 0.9rem; /* Reduce font size */
+  }
+
   footer {
     height: fit-content;
     padding-bottom: 2rem;
@@ -204,19 +190,22 @@
     gap: 1rem;
     text-align: center;
   }
-
+  
   .contact-info-container {
     text-align: center;
     padding: 1rem 0;
   }
 
-  /* Flex-wrap for better element alignment */
+  .experience-sub-title {
+    font-size: 1.1rem;
+  }
+
+  /* Ensure proper wrapping and spacing */
   .about-containers,
   .btn-container,
   .contact-info-upper-container {
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%; /* Ensure full-width containers */
   }
 
   .text-container {
@@ -224,4 +213,3 @@
     padding: 0 1rem;
   }
 }
-
