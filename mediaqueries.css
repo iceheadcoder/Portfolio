@@ -120,8 +120,7 @@
     text-align: center;
   }
   .section__pic-container {
-    width: 200px;
-    height: 200px;
+   max-width: 250rem;
     margin: 0 auto;
     display: block;
     text-align: center;
