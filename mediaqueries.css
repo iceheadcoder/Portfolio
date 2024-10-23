@@ -113,80 +113,101 @@
   }
 }
 
-@media screen and (max-width: 342px) {
+/* Styles for devices with screen width around 430px (6.1 inch devices) */
+@media screen and (max-width: 390px) {
+
+  /* Profile section adjustments */
   #profile {
-    height: auto;
-    margin-bottom: 3rem;
-    text-align: center;
+    height: auto; /* Allow content to dictate height */
+    margin-bottom: 4rem; /* Adjust bottom margin */
+    text-align: center; /* Ensure content is centered */
   }
+
   .section__pic-container {
-   max-width: 250rem;
-    margin: 0 auto;
-    display: block;
-    text-align: center;
-  }
-  .title {
-    font-size: 1.5rem;
-    text-align: center;
-  }
-  .section__text__p2 {
-    font-size: 0.9rem;
-  }
-  .text-container, .btn-container {
+    width: 250px; /* Smaller width for profile image */
+    height: 250px;
+    margin: 0 auto 1.5rem; /* Center the image */
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* Text and titles */
+  .title {
+    font-size: 1.75rem; /* Reduce size for smaller screens */
+    text-align: center;
+  }
+
+  .section__text__p2 {
+    font-size: 1rem;
+  }
+
+  /* Button and contact info alignment */
+  .text-container,
+  .btn-container {
+    display: flex;
+    flex-direction: column; /* Stack vertically */
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-bottom: 1rem;
-    width: 100%;
+    margin-bottom: 1.5rem;
   }
-  .btn {
-    width: 90%;
-    max-width: 250px;
-    margin-bottom: 1rem;
-  }
+
+  /* Reduce icon sizes */
   .social-icons {
     justify-content: center;
     margin-top: 1rem;
   }
+
   .social-icons a {
-    margin: 0 0.3rem;
+    margin: 0 0.4rem;
   }
+
+  /* Adjust project section for small screens */
   .proj-containers {
-    flex-direction: column;
+    flex-direction: column; /* Stack project cards vertically */
     align-items: center;
   }
+
   .details-container-proj {
-    width: 100%;
-    max-width: 320px;
+    width: 90%; /* Reduce width for better fit */
     margin-bottom: 1.5rem;
   }
+
+  /* General layout and font size adjustments */
   article {
-    font-size: 0.85rem;
+    font-size: 0.9rem; /* Reduce font size */
   }
+
   footer {
     height: fit-content;
-    padding-bottom: 1.5rem;
+    padding-bottom: 2rem;
   }
+
   .nav-links {
     flex-direction: column;
-    gap: 0.75rem;
+    gap: 1rem;
     text-align: center;
   }
+  
   .contact-info-container {
     text-align: center;
-    padding: 0.75rem 0;
+    padding: 1rem 0;
   }
+
   .experience-sub-title {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
-  .about-containers, .btn-container, .contact-info-upper-container {
+
+  /* Ensure proper wrapping and spacing */
+  .about-containers,
+  .btn-container,
+  .contact-info-upper-container {
     flex-wrap: wrap;
     justify-content: center;
   }
+
   .text-container {
     text-align: justify;
-    padding: 0 0.5rem;
+    padding: 0 1rem;
   }
 }
