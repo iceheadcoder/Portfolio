@@ -116,7 +116,7 @@
 
 
 /* Styles for devices with screen width around 430px (6.1 inch devices) */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 390px) {
 
   /* Profile section adjustments */
   #profile {
