@@ -131,6 +131,14 @@
     justify-content: center;
   }
 
+  .section__pic-container1{
+    width: 180px; /* Smaller width for profile image */
+    height: 180px;
+    margin: 0 auto 1.5rem; /* Center the image */
+    display: flex;
+    justify-content: center;
+  }
+
   /* Text and titles */
   .title {
     font-size: 1.75rem; /* Reduce size for smaller screens */
