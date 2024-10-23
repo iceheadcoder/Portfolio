@@ -225,10 +225,10 @@
 
   .section__pic-container {
     width: 200px; /* Smaller width for profile image */
-    height: 200px; /* Reduce height proportionally */
-    margin: 0 auto 1rem; /* Center the image and reduce bottom margin */
-    display: flex;
-    justify-content: center;
+    height: auto ;/* Reduce height proportionally */
+    margin: 0 auto ; /* Center the image and reduce bottom margin */
+    display: block;
+    text-align: center;
   }
 
   /* Text and titles */
