@@ -113,110 +113,81 @@
   }
 }
 
-
 @media screen and (max-width: 342px) {
-
-  /* Profile section adjustments */
   #profile {
-    height: auto; /* Allow content to dictate height */
-    margin-bottom: 3rem; /* Adjust bottom margin for smaller screens */
-    text-align: center; /* Ensure content is centered */
+    height: auto;
+    margin-bottom: 3rem;
+    text-align: center;
   }
-
   .section__pic-container {
-    width: 200px; /* Smaller width for profile image */
-    height: 200px ;/* Reduce height proportionally */
-    margin: 0 auto ; /* Center the image and reduce bottom margin */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
     display: block;
     text-align: center;
   }
-
-  /* Text and titles */
   .title {
-    font-size: 1.5rem; /* Further reduce size for smaller screens */
+    font-size: 1.5rem;
     text-align: center;
   }
-
   .section__text__p2 {
-    font-size: 0.9rem; /* Slightly reduce the text size */
+    font-size: 0.9rem;
   }
-
-  /* Button and contact info alignment */
-  .text-container,
-  .btn-container {
+  .text-container, .btn-container {
     display: flex;
-    flex-direction: column; /* Stack vertically */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-bottom: 1rem; /* Reduce margin for compact layout */
-    width: 100%; /* Ensure full width for smaller screens */
+    margin-bottom: 1rem;
+    width: 100%;
   }
-
-  /* Button size adjustments */
   .btn {
     width: 90%;
-    max-width: 250px; /* Ensure buttons fit within smaller screens */
+    max-width: 250px;
     margin-bottom: 1rem;
   }
-
-  /* Reduce icon sizes for social icons */
   .social-icons {
     justify-content: center;
     margin-top: 1rem;
   }
-
   .social-icons a {
-    margin: 0 0.3rem; /* Reduce margin between icons */
+    margin: 0 0.3rem;
   }
-
-  /* Adjust project section for small screens */
   .proj-containers {
-    flex-direction: column; /* Stack project cards vertically */
+    flex-direction: column;
     align-items: center;
   }
-
   .details-container-proj {
-    width: 100%; /* Full width for better fit */
-    max-width: 320px; /* Limit maximum width */
+    width: 100%;
+    max-width: 320px;
     margin-bottom: 1.5rem;
   }
-
-  /* General layout and font size adjustments */
   article {
-    font-size: 0.85rem; /* Reduce font size for readability */
+    font-size: 0.85rem;
   }
-
   footer {
     height: fit-content;
     padding-bottom: 1.5rem;
   }
-
   .nav-links {
     flex-direction: column;
-    gap: 0.75rem; /* Adjust gap for smaller screens */
+    gap: 0.75rem;
     text-align: center;
   }
-  
   .contact-info-container {
     text-align: center;
     padding: 0.75rem 0;
   }
-
   .experience-sub-title {
-    font-size: 1rem; /* Adjust sub-title size */
+    font-size: 1rem;
   }
-
-  /* Ensure proper wrapping and spacing */
-  .about-containers,
-  .btn-container,
-  .contact-info-upper-container {
+  .about-containers, .btn-container, .contact-info-upper-container {
     flex-wrap: wrap;
     justify-content: center;
   }
-
   .text-container {
     text-align: justify;
-    padding: 0 0.5rem; /* Adjust padding to fit smaller width */
+    padding: 0 0.5rem;
   }
 }
