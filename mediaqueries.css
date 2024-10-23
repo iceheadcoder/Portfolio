@@ -132,8 +132,8 @@
   }
 
   .section__pic-container1{
-    width: 85px; /* Smaller width for profile image */
-    height: 85px;
+    width: 15px; /* Smaller width for profile image */
+    height: 15px;
     margin: 0 auto 1.5rem; /* Center the image */
     display: flex;
     justify-content: center;
